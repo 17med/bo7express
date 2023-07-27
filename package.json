@@ -1,0 +1,26 @@
+{
+  "name": "bo7express",
+  "version": "1.0.1",
+  "description": "create a full project express with one commande",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": "./index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+
+    "console-clear": "^1.1.1",
+    "download-git-repo": "^0.0.2",
+    "figlet": "^1.6.0",
+    "git-clone": "^0.2.0",
+    "git-download": "^0.0.2",
+    "inquirer": "^9.2.8",
+    "nanospinner": "^1.1.0"
+
+
+  }
+}
