@@ -1,0 +1,119 @@
+repo_name: 17med/bo7express
+report_id: 9fb4509abd2a3ca1608982d6dd3ffe43
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-17T19:27:20+00:00'
+requested_by: 17med
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/17med/bo7express
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/17med/bo7express
+  detection_source: Repo Metadata
+- name: Git-Repo
+  description: Manage Gitlab, GitHub and Bitbucket from the command line
+  website_url: https://github.com/guyzmo/git-repo
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/17med/bo7express/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ahmed achour
+  last_updated_on: 2023-07-27 17:17:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/17med/bo7express/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ahmed achour
+  last_updated_on: 2023-07-27 17:17:14.000000000 Z
+- name: download-git-repo
+  description: Download and extract a git repository
+  package_url: https://www.npmjs.com/download-git-repo
+  version: 0.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16320/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/17med/bo7express/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ahmed achour
+  last_updated_on: 2023-07-27 17:17:14.000000000 Z
+- name: figlet
+  description: Creates ASCII Art from text
+  package_url: https://www.npmjs.com/figlet
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16424/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/17med/bo7express/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ahmed achour
+  last_updated_on: 2023-07-27 17:17:14.000000000 Z
+- name: git-clone
+  description: Clone a git repository
+  package_url: https://www.npmjs.com/git-clone
+  version: 0.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18505/default_aabef48673d7b85e098f65ec3d0fa0b5983de6b5.png
+  detection_source_url: https://github.com/17med/bo7express/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ahmed achour
+  last_updated_on: 2023-07-27 17:17:14.000000000 Z
+  vulnerabilities:
+  - name: Command injection in git-clone
+    cve_id: CVE-2022-25900
+    cve_url: https://github.com/advisories/GHSA-8jmw-wjr8-2x66
+    detected_date: Jul 7
+    severity: high
+    first_patched: 
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 9.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/17med/bo7express/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ahmed achour
+  last_updated_on: 2023-07-27 17:17:14.000000000 Z
